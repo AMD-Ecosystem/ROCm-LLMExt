@@ -68,7 +68,7 @@ ROCm-LLMExt documentation is organized into the following categories:
   .. grid-item-card:: Resources
 
     * `ComfyUI on ROCm blog <https://rocm.blogs.amd.com/software-tools-optimization/comfyui-on-amd/README.html>`__
-    * `FlashInfer on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/flashinfer-release2/README.htm>`__
+    * `FlashInfer on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/flashinfer-release2/README.html>`__
     * `llama.cpp on ROCm blog <https://rocm.blogs.amd.com/ecosystems-and-partners/llama-cpp-oct2025/README.html>`__
     * `Ray on ROCm blog <https://rocm.blogs.amd.com/ecosystems-and-partners/ray-rocm7/README.html>`__
     * `ROCm-RAG blog <https://rocm.blogs.amd.com/artificial-intelligence/rag-pipeline-vllm/README.html>`__
