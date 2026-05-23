@@ -26,7 +26,7 @@ ROCm-LLMExt 26.03 introduces a new component (Triton Inference Server) and inclu
 
 This release introduces the following component with support for [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2.0/):
 
-* [Triton Inference Server](https://rocm.docs.amd.com/projects/triton-inference-server/en/docs-26.03/) is a high-performance serving system that lets you deploy and run trained AI models in production so applications can send requests and recieve predictions efficiently in real time.
+* [Triton Inference Server](https://rocm.docs.amd.com/projects/triton-inference-server/en/docs-26.03/) is a high-performance serving system that lets you deploy and run trained AI models in production so applications can send requests and receive predictions efficiently in real time.
 
 This release adds support for [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2.0/) and [ROCm 7.0.2](https://rocm.docs.amd.com/en/docs-7.0.2/) for the following component:
 
