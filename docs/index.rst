@@ -67,7 +67,7 @@ ROCm-LLMExt documentation is organized into the following categories:
 
   .. grid-item-card:: Resources
 
-    * `ComfyUI on ROCm blog <https://rocm.blogs.amd.com/software-tools-optimization/comfyui-on-amd/README.html>`__
+    * `ComfyUI on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/comfyui/README.html>`__
     * `FlashInfer on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/flashinfer-release2/README.html>`__
     * `llama.cpp on ROCm blog <https://rocm.blogs.amd.com/ecosystems-and-partners/llama-cpp-oct2025/README.html>`__
     * `Ray on ROCm blog <https://rocm.blogs.amd.com/ecosystems-and-partners/ray-rocm7/README.html>`__
@@ -75,6 +75,4 @@ ROCm-LLMExt documentation is organized into the following categories:
     * `Triton Inference Server blog <https://rocm.blogs.amd.com/artificial-intelligence/triton-inference-server/README.html>`__
     * `verl on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/verl-large-scale-rocm7/README.html>`__
 
-To contribute to the documentation, see `Contributing to ROCm  <https://rocm.docs.amd.com/en/latest/contribute/contributing.html>`__.
 
-You can find licensing information on the :doc:`Licensing <about/license>` page.

@@ -32,7 +32,7 @@ subtrees:
 
 - caption: Resources
   entries:
-  - url: https://rocm.blogs.amd.com/software-tools-optimization/comfyui-on-amd/README.html
+  - url: https://rocm.blogs.amd.com/artificial-intelligence/comfyui/README.html
     title: ROCm ComfyUI blog
   - url: https://rocm.blogs.amd.com/artificial-intelligence/flashinfer-release2/README.html
     title: ROCm FlashInfer blog
