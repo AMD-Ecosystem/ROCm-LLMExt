@@ -22,16 +22,20 @@ the licenses in the individual repositories.
 
    * - Component
      - License
-   * - `verl <https://github.com/ROCm/verl>`__
-     - `Apache 2.0 <https://github.com/ROCm/verl/blob/main/LICENSE>`__
-   * - `Ray <https://github.com/ROCm/ray>`__
-     - `Apache 2.0 <https://github.com/ROCm/ray/blob/amd-integration/LICENSE>`__
-   * - `llama.cpp <https://github.com/ROCm/llama.cpp>`__
-     - `MIT License <https://github.com/ROCm/llama.cpp/blob/master/LICENSE>`__
+   * - `ComfyUI <https://github.com/ROCm/ComfyUI>`__
+     - `Apache 2.0 <https://github.com/ROCm/ComfyUI/blob/amd-integration/LICENSE>`__
    * - `FlashInfer <https://github.com/ROCm/flashinfer>`__
      - `Apache 2.0 <https://github.com/ROCm/flashinfer/blob/amd-integration/LICENSE>`__
+   * - `llama.cpp <https://github.com/ROCm/llama.cpp>`__
+     - `MIT License <https://github.com/ROCm/llama.cpp/blob/master/LICENSE>`__
+   * - `Ray <https://github.com/ROCm/ray>`__
+     - `Apache 2.0 <https://github.com/ROCm/ray/blob/amd-integration/LICENSE>`__
+   * - `ROCm-RAG <https://github.com/ROCm/rocm-rag>`__
+     - `MIT License <https://github.com/ROCm/rocm-rag/blob/main/LICENSE>`__
    * - `Triton Inference Server <https://github.com/ROCm/triton-inference-server-server>`__
      - `BSD 3-Clause License <https://github.com/ROCm/triton-inference-server-server/blob/amd-integration/LICENSE>`__
+   * - `verl <https://github.com/ROCm/verl>`__
+     - `Apache 2.0 <https://github.com/ROCm/verl/blob/main/LICENSE>`__
 
 .. note::
    The following additional terms and conditions apply to your use of ROCm-LLMExt documentation.
