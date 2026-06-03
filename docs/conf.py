@@ -8,15 +8,15 @@ shutil.copy2("../RELEASE.md", "./about/release-notes.md")
 html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "rocm.docs.amd.com")
 #html_context = {}
 html_context = {
-    "docs_header_version": "26.03"
+    "docs_header_version": "26.04"
 }
 if os.environ.get("READTHEDOCS", "") == "True":
     html_context["READTHEDOCS"] = True
 project = "AMD ROCm LLMExt"
 
-version = "26.03"
+version = "26.04"
 release = version
-html_title = "ROCm-LLMExt 26.03 documentation"
+html_title = "ROCm-LLMExt 26.04 documentation"
 author = "Advanced Micro Devices, Inc."
 copyright = "Copyright (c) 2026 Advanced Micro Devices, Inc. All rights reserved."
 setting_all_article_info = True

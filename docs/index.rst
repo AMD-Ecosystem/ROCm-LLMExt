@@ -43,8 +43,8 @@ The ROCm-LLMExt source code is hosted on GitHub at `https://github.com/ROCm/ROCm
 
 .. note::
 
-   ROCm-LLMExt 26.03 introduces a new component (Triton Inference Server) and includes targeted updates to one component (FlashInfer);
-   other components remain unchanged (verl, Ray, and llama.cpp).
+   ROCm-LLMExt 26.04 introduces two agentic libraries (ComfyUI and ROCm-RAG) as part of the toolkit;
+   other components remain unchanged (FlashInfer, llama.cpp, Ray, Triton Inference Server, and verl).
 
 ROCm-LLMExt documentation is organized into the following categories:
 
@@ -57,19 +57,22 @@ ROCm-LLMExt documentation is organized into the following categories:
 
   .. grid-item-card:: Components
 
+    * `ComfyUI <https://rocm.docs.amd.com/projects/comfyui/en/docs-26.04/>`__
     * `FlashInfer <https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.03/>`__
     * `llama.cpp <https://rocm.docs.amd.com/projects/llama-cpp/en/docs-26.02/>`__
     * `Ray <https://rocm.docs.amd.com/projects/ray/en/docs-26.02/>`__
+    * `ROCm-RAG <https://rocm.docs.amd.com/projects/rocm-rag/en/docs-26.04/>`__
     * `Triton Inference Server <https://rocm.docs.amd.com/projects/triton-inference-server/en/docs-26.03/>`__
     * `verl <https://rocm.docs.amd.com/projects/verl/en/docs-26.02/>`__
 
   .. grid-item-card:: Resources
 
-    * `FlashInfer on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/flashinfer/README.html>`__
+    * `ComfyUI on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/comfyui/README.html>`__
+    * `FlashInfer on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/flashinfer-release2/README.html>`__
     * `llama.cpp on ROCm blog <https://rocm.blogs.amd.com/ecosystems-and-partners/llama-cpp-oct2025/README.html>`__
     * `Ray on ROCm blog <https://rocm.blogs.amd.com/ecosystems-and-partners/ray-rocm7/README.html>`__
+    * `ROCm-RAG blog <https://rocm.blogs.amd.com/artificial-intelligence/rag-pipeline-vllm/README.html>`__
+    * `Triton Inference Server blog <https://rocm.blogs.amd.com/artificial-intelligence/triton-inference-server/README.html>`__
     * `verl on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/verl-large-scale-rocm7/README.html>`__
 
-To contribute to the documentation, see `Contributing to ROCm  <https://rocm.docs.amd.com/en/latest/contribute/contributing.html>`__.
 
-You can find licensing information on the :doc:`Licensing <about/license>` page.

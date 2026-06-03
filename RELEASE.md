@@ -10,9 +10,9 @@
 <!-- markdownlint-disable reference-links-images            -->
 <!-- markdownlint-disable no-missing-space-atx              -->
 <!-- spellcheck-disable                                     -->
-# ROCm-LLMExt 26.03 release notes
+# ROCm-LLMExt 26.04 release notes
 
-This is the fourth release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
+This is the fifth release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
 
 - [Release highlights](#release-highlights)
 - [System requirements](#system-requirements)
@@ -21,25 +21,25 @@ This is the fourth release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open
 ## Release highlights
 
 ```{note}
-ROCm-LLMExt 26.03 introduces a new component (Triton Inference Server) and includes targeted updates to one component (FlashInfer); other components remain unchanged (verl, Ray, and llama.cpp).
+ROCm-LLMExt 26.04 introduces two agentic libraries (ComfyUI and ROCm-RAG) as part of the toolkit; other components remain unchanged (FlashInfer, llama.cpp, Ray, Triton Inference Server, and verl).
 ```
 
 This release introduces the following component with support for [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2.0/):
 
-* [Triton Inference Server](https://rocm.docs.amd.com/projects/triton-inference-server/en/docs-26.03/) is a high-performance serving system that lets you deploy and run trained AI models in production so applications can send requests and recieve predictions efficiently in real time.
+* [ComfyUI](https://rocm.docs.amd.com/projects/comfyui/en/docs-26.04/) is an open-source, node-based interface for building and running image generation workflows with diffusion models such as Stable Diffusion.
 
-This release adds support for [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2.0/) and [ROCm 7.0.2](https://rocm.docs.amd.com/en/docs-7.0.2/) for the following component:
+This release introduces the following component with support for [ROCm 6.4.1](https://rocm.docs.amd.com/en/docs-6.4.1/):
 
-* [FlashInfer](https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.03/) is a library and kernel generator for large language models (LLMs) that provides a high-performance implementation of kernels for graphics processing units (GPUs). FlashInfer focuses on LLM serving and inference, as well as advanced performance across diverse scenarios.
+* [ROCm-RAG](https://rocm.docs.amd.com/projects/rocm-rag/en/docs-26.04/) (Retrieval-Augmented Generation) is a machine learning architecture that enhances Large Language Models by combining generation with information retrieval from external sources.
 
 
 ## System requirements
 
-For the 26.03 release, the ROCm‑LLMExt components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each individual component, where the exact ROCm dependency is listed, or refer to the [compatibility matrix](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-26.03/about/compatibility-matrix.html) to verify supported ROCm versions. 
+ROCm‑LLMExt components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each component, which list the exact ROCm dependencies, or refer to the [Compatibility matrix](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-26.04/about/compatibility-matrix.html) to verify the supported ROCm versions.  
 
 ## ROCm-LLMExt components
 
-The following table lists ROCm-LLMExt component versions for the 26.03 release. 
+The following table lists ROCm-LLMExt component versions for the 26.04 release. 
 Click {fab}`github` to go to the component's source on GitHub.
 
 <div class="pst-scrollable-table-container">
@@ -68,18 +68,28 @@ Click {fab}`github` to go to the component's source on GitHub.
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/llama-cpp/en/docs-26.02/">llama.cpp</a></td>
-                <td>b6652</a></td>
+                <td>b6652</td>
                 <td><a href="https://github.com/ROCm/llama.cpp/tree/release/b6652"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.03/">FlashInfer</a></td>
-                <td>0.2.5&nbsp;&Rightarrow;&nbsp;<a href="#flashinfer-0-5-3">0.5.3</a></td>
+                <td>0.5.3</td>
                 <td><a href="https://github.com/flashinfer-ai/flashinfer/releases/tag/v0.5.3"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/triton-inference-server/en/docs-26.03/">Triton Inference Server</a></td>
-                <td><a href="#triton-inference-server-25-12">25.12</a></td>
+                <td>25.12</td>
                 <td><a href="https://github.com/triton-inference-server/server/tree/r25.12"><i class="fab fa-github fa-lg"></i></a></td>
+            </tr>
+            <tr>
+                <td><a href="https://rocm.docs.amd.com/projects/comfyui/en/docs-26.04/">ComfyUI</a></td>
+                <td><a href="#comfyui-0-18-2">0.18.2</a></td>
+                <td><a href="https://github.com/ROCm/ComfyUI/tree/release/0.18.2.amd0"><i class="fab fa-github fa-lg"></i></a></td>
+            </tr>
+            <tr>
+                <td><a href="https://rocm.docs.amd.com/projects/rocm-rag/en/docs-26.04/">ROCm-RAG</a></td>
+                <td><a href="#rocm-rag-1-0-0">1.0.0</a></td>
+                <td><a href="https://github.com/ROCm/rocm-rag/tree/release/1.0.0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
     </table>
@@ -87,11 +97,10 @@ Click {fab}`github` to go to the component's source on GitHub.
 
 ## Detailed component changelogs
 
-### FlashInfer 0.5.3
+### ComfyUI 0.18.2
 
-This release adds support for ROCm 7.2.0 and ROCm 7.0.2 on AMD Instinct MI325X and MI300X GPUs and introduces support for MI355X GPUs.
+ComfyUI is a newly-supported component as part of the ROCm-LLMExt toolkit. ComfyUI is a graphical node-based interface that lets you create images, videos, and audio with minimal coding. You can even create diffusion workflows by dragging and dropping nodes in a visual interface. This release is supported on ROCm 7.2.0 on AMD Instinct MI355X GPUs.
 
-### Triton Inference Server 25.12
+### ROCm-RAG 1.0.0
 
-
-Triton Inference Server is a newly supported component as part of the ROCm-LLMExt toolkit. Triton Inference Server is a high-performance serving system that lets you deploy and run trained AI models in production so applications can send requests and get predictions efficiently in real time. This release is supported on ROCm 7.2.0 on AMD Instinct MI355X and MI300X GPUs.
+ROCm-RAG is a newly-supported component as part of the ROCm-LLMExt toolkit. Build and deploy end-to-end AI pipelines with ROCm Retrieval-Augmented Generation (RAG) on AMD Instinct MI300X GPUs with support on ROCm 6.4.1. RAG is a machine learning architecture that enhances Large Language Models by combining generation with information retrieval from external sources. 

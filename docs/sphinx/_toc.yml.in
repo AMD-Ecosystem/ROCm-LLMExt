@@ -15,12 +15,16 @@ subtrees:
 
 - caption: Components
   entries:
+  - url: https://rocm.docs.amd.com/projects/comfyui/en/docs-26.04/
+    title: ComfyUI
   - url: https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.03/
     title: FlashInfer
   - url: https://rocm.docs.amd.com/projects/llama-cpp/en/docs-26.02/
     title: llama.cpp
   - url: https://rocm.docs.amd.com/projects/ray/en/docs-26.02/
     title: Ray
+  - url: https://rocm.docs.amd.com/projects/rocm-rag/en/docs-26.04/
+    title: ROCm-RAG
   - url: https://rocm.docs.amd.com/projects/triton-inference-server/en/docs-26.03/
     title: Triton Inference Server
   - url: https://rocm.docs.amd.com/projects/verl/en/docs-26.02/
@@ -28,12 +32,18 @@ subtrees:
 
 - caption: Resources
   entries:
-  - url: https://rocm.blogs.amd.com/artificial-intelligence/flashinfer/README.html
+  - url: https://rocm.blogs.amd.com/artificial-intelligence/comfyui/README.html
+    title: ROCm ComfyUI blog
+  - url: https://rocm.blogs.amd.com/artificial-intelligence/flashinfer-release2/README.html
     title: ROCm FlashInfer blog
   - url: https://rocm.blogs.amd.com/ecosystems-and-partners/llama-cpp-oct2025/README.html
     title: ROCm llama.cpp blog
   - url: https://rocm.blogs.amd.com/ecosystems-and-partners/ray-rocm7/README.html
     title: ROCm Ray blog
+  - url: https://rocm.blogs.amd.com/artificial-intelligence/rag-pipeline-vllm/README.html
+    title: ROCm-RAG blog
+  - url: https://rocm.blogs.amd.com/artificial-intelligence/triton-inference-server/README.html
+    title: Triton Inference Server blog
   - url: https://rocm.blogs.amd.com/artificial-intelligence/verl-large-scale-rocm7/README.html
     title: ROCm verl blog
 
