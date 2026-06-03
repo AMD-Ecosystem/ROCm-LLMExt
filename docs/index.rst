@@ -70,6 +70,4 @@ ROCm-LLMExt documentation is organized into the following categories:
     * `Ray on ROCm blog <https://rocm.blogs.amd.com/ecosystems-and-partners/ray-rocm7/README.html>`__
     * `verl on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/verl-large-scale-rocm7/README.html>`__
 
-To contribute to the documentation, see `Contributing to ROCm  <https://rocm.docs.amd.com/en/latest/contribute/contributing.html>`__.
 
-You can find licensing information on the :doc:`Licensing <about/license>` page.
