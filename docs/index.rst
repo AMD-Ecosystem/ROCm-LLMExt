@@ -43,8 +43,8 @@ The ROCm-LLMExt source code is hosted on GitHub at `https://github.com/ROCm/ROCm
 
 .. note::
 
-   ROCm-LLMExt 26.04 introduces two agentic libraries (ComfyUI and ROCm-RAG) as part of the toolkit;
-   other components remain unchanged (FlashInfer, llama.cpp, Ray, Triton Inference Server, and verl).
+   ROCm-LLMExt 26.06 introduces updates to two components (verl and Ray) as part of the toolkit;
+   other components remain unchanged (ComfyUI, FlashInfer, llama.cpp, ROCm-RAG, and Triton Inference Server).
 
 ROCm-LLMExt documentation is organized into the following categories:
 
