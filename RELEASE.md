@@ -10,9 +10,10 @@
 <!-- markdownlint-disable reference-links-images            -->
 <!-- markdownlint-disable no-missing-space-atx              -->
 <!-- spellcheck-disable                                     -->
-# ROCm-LLMExt 26.04 release notes
 
-This is the fifth release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
+# ROCm-LLMExt 26.06 release notes
+
+This is the sixth release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
 
 - [Release highlights](#release-highlights)
 - [System requirements](#system-requirements)
@@ -21,25 +22,24 @@ This is the fifth release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open-
 ## Release highlights
 
 ```{note}
-ROCm-LLMExt 26.04 introduces two agentic libraries (ComfyUI and ROCm-RAG) as part of the toolkit; other components remain unchanged (FlashInfer, llama.cpp, Ray, Triton Inference Server, and verl).
+ROCm-LLMExt 26.06 introduces updates to two components (verl and Ray) as part of the toolkit; other components remain unchanged (ComfyUI, FlashInfer, llama.cpp, ROCm-RAG, and Triton Inference Server).
 ```
 
-This release introduces the following component with support for [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2.0/):
+This release updates the following component with support for [ROCm 7.0.2](https://rocm.docs.amd.com/en/docs-7.0.2/):
 
-* [ComfyUI](https://rocm.docs.amd.com/projects/comfyui/en/docs-26.04/) is an open-source, node-based interface for building and running image generation workflows with diffusion models such as Stable Diffusion.
+* [verl (Volcano Engine Reinforcement Learning for LLMs)](https://rocm.docs.amd.com/projects/verl/en/docs-26.06/) is an open-source framework for reinforcement-learning post-training of large language models and is the reference implementation of HybridFlow. 
 
-This release introduces the following component with support for [ROCm 6.4.1](https://rocm.docs.amd.com/en/docs-6.4.1/):
+This release updates the following component with support for [ROCm 7.2.1](https://rocm.docs.amd.com/en/docs-7.2.1/):
 
-* [ROCm-RAG](https://rocm.docs.amd.com/projects/rocm-rag/en/docs-26.04/) (Retrieval-Augmented Generation) is a machine learning architecture that enhances Large Language Models by combining generation with information retrieval from external sources.
-
+* [Ray](https://rocm.docs.amd.com/projects/ray/en/docs-26.06/) is an open-source framework for scaling Python and AI workloads, providing the distributed compute and orchestration layer used by verl for multi-GPU and multi-node training.
 
 ## System requirements
 
-ROCm‑LLMExt components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each component, which list the exact ROCm dependencies, or refer to the [Compatibility matrix](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-26.04/about/compatibility-matrix.html) to verify the supported ROCm versions.  
+ROCm‑LLMExt components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each component, which list the exact ROCm dependencies, or refer to the [Compatibility matrix](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-26.06/about/compatibility-matrix.html) to verify the supported ROCm versions.  
 
 ## ROCm-LLMExt components
 
-The following table lists ROCm-LLMExt component versions for the 26.04 release. 
+The following table lists ROCm-LLMExt component versions for the 26.06 release. 
 Click {fab}`github` to go to the component's source on GitHub.
 
 <div class="pst-scrollable-table-container">
@@ -57,14 +57,14 @@ Click {fab}`github` to go to the component's source on GitHub.
         </colgroup>
         <tbody class="rocm-llmext-components">
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/verl/en/docs-26.02/">verl</a></td>
-                <td>0.6.0</td>
-                <td><a href="https://github.com/verl-project/verl/releases/tag/v0.6.0"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/verl/en/docs-26.06/">verl</a></td>
+                <td><a href="#verl-0-7-1">0.7.1</a></td>
+                <td><a href="https://github.com/verl-project/verl/releases/tag/v0.7.1"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/ray/en/docs-26.02/">Ray</a></td>
-                <td>2.51.1</td>
-                <td><a href="https://github.com/ray-project/ray/releases/tag/ray-2.51.1"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/ray/en/docs-26.06/">Ray</a></td>
+                <td><a href="#ray-2-55-1">2.55.1</a></td>
+                <td><a href="https://github.com/ray-project/ray/releases/tag/ray-2.55.1"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/llama-cpp/en/docs-26.02/">llama.cpp</a></td>
@@ -83,12 +83,12 @@ Click {fab}`github` to go to the component's source on GitHub.
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/comfyui/en/docs-26.04/">ComfyUI</a></td>
-                <td><a href="#comfyui-0-18-2">0.18.2</a></td>
+                <td>0.18.2</td>
                 <td><a href="https://github.com/ROCm/ComfyUI/tree/release/0.18.2.amd0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/rocm-rag/en/docs-26.04/">ROCm-RAG</a></td>
-                <td><a href="#rocm-rag-1-0-0">1.0.0</a></td>
+                <td>1.0.0</td>
                 <td><a href="https://github.com/ROCm/rocm-rag/tree/release/1.0.0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
@@ -97,10 +97,10 @@ Click {fab}`github` to go to the component's source on GitHub.
 
 ## Detailed component changelogs
 
-### ComfyUI 0.18.2
+### verl 0.7.1
 
-ComfyUI is a newly-supported component as part of the ROCm-LLMExt toolkit. ComfyUI is a graphical node-based interface that lets you create images, videos, and audio with minimal coding. You can even create diffusion workflows by dragging and dropping nodes in a visual interface. This release is supported on ROCm 7.2.0 on AMD Instinct MI355X GPUs.
+This release updates verl in ROCm-LLMExt from 0.6.0 to 0.7.1, and adds supports for ROCm 7.0.2 on AMD Instinct MI300X, MI308, MI325X, MI350X, and MI355X GPUs with PyTorch 2.9.1 and Python 3.12 on Ubuntu 22.04. 
 
-### ROCm-RAG 1.0.0
+### Ray 2.55.1
 
-ROCm-RAG is a newly-supported component as part of the ROCm-LLMExt toolkit. Build and deploy end-to-end AI pipelines with ROCm Retrieval-Augmented Generation (RAG) on AMD Instinct MI300X GPUs with support on ROCm 6.4.1. RAG is a machine learning architecture that enhances Large Language Models by combining generation with information retrieval from external sources. 
+This release updates Ray in ROCm-LLMExt from 2.51.1 to 2.55.1, and adds support for ROCm 7.2.1 on AMD Instinct MI300X, MI325X, and MI355X GPUs with PyTorch 2.10.0+git8514f05 and Python 3.12.13 on Ubuntu 22.04.
