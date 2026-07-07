@@ -60,10 +60,10 @@ ROCm-LLMExt documentation is organized into the following categories:
     * `ComfyUI <https://rocm.docs.amd.com/projects/comfyui/en/docs-26.04/>`__
     * `FlashInfer <https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.03/>`__
     * `llama.cpp <https://rocm.docs.amd.com/projects/llama-cpp/en/docs-26.02/>`__
-    * `Ray <https://rocm.docs.amd.com/projects/ray/en/docs-26.02/>`__
+    * `Ray <https://rocm.docs.amd.com/projects/ray/en/docs-26.06/>`__
     * `ROCm-RAG <https://rocm.docs.amd.com/projects/rocm-rag/en/docs-26.04/>`__
     * `Triton Inference Server <https://rocm.docs.amd.com/projects/triton-inference-server/en/docs-26.03/>`__
-    * `verl <https://rocm.docs.amd.com/projects/verl/en/docs-26.02/>`__
+    * `verl <https://rocm.docs.amd.com/projects/verl/en/docs-26.06/>`__
 
   .. grid-item-card:: Resources
 
