@@ -99,7 +99,7 @@ Click {fab}`github` to go to the component's source on GitHub.
 
 ### verl 0.7.1
 
-This release updates verl in ROCm-LLMExt from 0.6.0 to 0.7.1, and adds supports for ROCm 7.0.2 on AMD Instinct MI300X, MI325X, and MI355X GPUs with PyTorch 2.9.1 and Python 3.12 on Ubuntu 22.04. 
+This release updates verl in ROCm-LLMExt from 0.6.0 to 0.7.1, and adds support for ROCm 7.0.2 on AMD Instinct MI300X, MI325X, and MI355X GPUs with PyTorch 2.9.1 and Python 3.12 on Ubuntu 22.04. 
 
 ### Ray 2.55.1
 
