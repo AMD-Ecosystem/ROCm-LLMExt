@@ -27,7 +27,7 @@ ROCm-LLMExt 26.06 introduces updates to two components (verl and Ray) as part of
 
 This release updates the following component with support for [ROCm 7.0.2](https://rocm.docs.amd.com/en/docs-7.0.2/):
 
-* [verl (Volcano Engine Reinforcement Learning for LLMs)](https://rocm.docs.amd.com/projects/verl/en/docs-26.06/) is an open-source framework for reinforcement-learning post-training of large language models and is the reference implementation of HybridFlow. 
+* [verl (Volcano Engine Reinforcement Learning for LLMs)](https://rocm.docs.amd.com/projects/verl/en/docs-26.06/) is an open-source framework for reinforcement-learning post-training of large language models and is the reference implementation of HybridFlow.
 
 This release updates the following component with support for [ROCm 7.2.1](https://rocm.docs.amd.com/en/docs-7.2.1/):
 
