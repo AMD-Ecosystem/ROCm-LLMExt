@@ -30,7 +30,7 @@ Use the following matrix to view the ROCm-LLMExt compatibility and system requir
    |                        | verl/en/docs-26.06/install/                        | MI355X           |              |        |                      |                | verl/tags?name=                            |
    |                        | verl-install.html>`__                              |                  |              |        |                      |                | verl-0.7.1>`__                             |
    +                        +----------------------------------------------------+------------------+--------------+--------+----------------------+----------------+--------------------------------------------+
-   |                        | `ray 2.55.1                                        | MI300X,          | 7.2.1        | 22.04  | 2.10.0+git8514f05    | 3.12.13        | |docker-icon| `rocm/ray                    |
+   |                        | `Ray 2.55.1                                        | MI300X,          | 7.2.1        | 22.04  | 2.10.0+git8514f05    | 3.12.13        | |docker-icon| `rocm/ray                    |
    |                        | <https://rocm.docs.amd.com/projects/               | MI325X,          |              |        |                      |                | <https://hub.docker.com/r/rocm/            |
    |                        | ray/en/docs-26.06/install/                         | MI355X           |              |        |                      |                | ray/tags?name=ray-2.55>`__                 |
    |                        | ray-install.html>`__                               |                  |              |        |                      |                |                                            |
