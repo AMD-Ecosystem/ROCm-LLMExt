@@ -1,18 +1,18 @@
 .. meta::
-   :description: AMD ROCm LLMExt (ROCm-LLMExt) license
+   :description: AMD LLM Extension license
    :keywords: ROCm, LLM, AMD, Instinct, GPU, computer, graphics, python, toolkit, accelerated
 
 **************************************************************************************
-ROCm-LLMExt license
+AMD LLM Extension license
 **************************************************************************************
 
 .. include:: ../../LICENSE
   :literal:
 
-ROCm-LLMExt component licenses
+AMD LLM Extension component licenses
 --------------------------------------------------------------------------------------
 
-ROCm-LLMExt includes multiple components, each governed by its own license.
+AMD LLM Extension includes multiple components, each governed by its own license.
 Links to the license terms for each component can be seen below. Some components
 may be third-party and subject to additional licenses. For complete details, review
 the licenses in the individual repositories.
@@ -22,19 +22,19 @@ the licenses in the individual repositories.
 
    * - Component
      - License
-   * - `verl <https://github.com/ROCm/verl>`__
-     - `Apache 2.0 <https://github.com/ROCm/verl/blob/main/LICENSE>`__
-   * - `Stanford Megatron-LM <https://github.com/ROCm/Stanford-Megatron-LM>`__
-     - `NVIDIA License, Apache 2.0 and MIT License <https://github.com/ROCm/Stanford-Megatron-LM/blob/main/LICENSE>`__
-   * - `Megablocks <https://github.com/ROCm/megablocks>`__
-     - `Apache 2.0 <https://github.com/ROCm/megablocks/blob/main/LICENSE>`__
-   * - `Ray <https://github.com/ROCm/ray>`__
-     - `Apache 2.0 <https://github.com/ROCm/ray/blob/amd-integration/LICENSE>`__
-   * - `llama.cpp <https://github.com/ROCm/llama.cpp>`__
-     - `MIT License <https://github.com/ROCm/llama.cpp/blob/master/LICENSE>`__
+   * - `verl <https://github.com/AMD-Ecosystem/verl>`__
+     - `Apache 2.0 <https://github.com/AMD-Ecosystem/verl/blob/main/LICENSE>`__
+   * - `Stanford Megatron-LM <https://github.com/AMD-Ecosystem/Stanford-Megatron-LM>`__
+     - `NVIDIA License, Apache 2.0 and MIT License <https://github.com/AMD-Ecosystem/Stanford-Megatron-LM/blob/main/LICENSE>`__
+   * - `Megablocks <https://github.com/AMD-Ecosystem/megablocks>`__
+     - `Apache 2.0 <https://github.com/AMD-Ecosystem/megablocks/blob/main/LICENSE>`__
+   * - `Ray <https://github.com/AMD-Ecosystem/ray>`__
+     - `Apache 2.0 <https://github.com/AMD-Ecosystem/ray/blob/amd-integration/LICENSE>`__
+   * - `llama.cpp <https://github.com/AMD-Ecosystem/llama.cpp>`__
+     - `MIT License <https://github.com/AMD-Ecosystem/llama.cpp/blob/master/LICENSE>`__
 
 .. note::
-   The following additional terms and conditions apply to your use of ROCm-LLMExt documentation.
+   The following additional terms and conditions apply to your use of AMD LLM Extension documentation.
 
 
     ©2025 Advanced Micro Devices, Inc. All rights reserved.

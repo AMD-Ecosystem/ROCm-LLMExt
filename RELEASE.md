@@ -10,13 +10,13 @@
 <!-- markdownlint-disable reference-links-images            -->
 <!-- markdownlint-disable no-missing-space-atx              -->
 <!-- spellcheck-disable                                     -->
-# ROCm-LLMExt 25.08 release notes
+# AMD LLM Extension 25.08 release notes
 
-This is the first release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
+This is the first release of the AMD LLM Extension toolkit, an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
 
 - [Release highlights](#release-highlights)
 - [System requirements](#system-requirements)
-- [ROCm-LLMExt components](#rocm-llmext-components)
+- [AMD LLM Extension components](#amd-llm-extension-components)
 
 ## Release highlights
 
@@ -41,9 +41,9 @@ This release introduces support for [ROCm 6.2.0](https://rocm.docs.amd.com/en/do
 
 For the 25.08 release, the ROCm‑LLMExt components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each individual component, where the exact ROCm dependency is listed or refer to the [compatibility matrix](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-25.08/about/compatibility-matrix.html) to verify supported ROCm versions.
 
-## ROCm-LLMExt components
+## AMD LLM Extension components
 
-The following table lists the ROCm-LLMExt component version for the 25.08 release. 
+The following table lists the AMD LLM Extension component version for the 25.08 release. 
 Click {fab}`github` to go to the component's source on GitHub.
 
 <div class="pst-scrollable-table-container">
@@ -78,12 +78,12 @@ Click {fab}`github` to go to the component's source on GitHub.
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/ray/en/docs-25.08/">Ray</a></td>
                 <td>2.48.0.post0</td>
-                <td><a href="https://github.com/ROCm/ray/tree/release/2.48.0.post0"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/ray/tree/release/2.48.0.post0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/llama-cpp/en/docs-25.08/">llama.cpp</a></td>
                 <td>b5997</td>
-                <td><a href="https://github.com/ROCm/llama.cpp/tree/release/b5997"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/llama.cpp/tree/release/b5997"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
     </table>
