@@ -1,6 +1,6 @@
-# AMD ROCm™ LLMExt
+# AMD LLM Extension
 
-AMD ROCm™ LLMExt (ROCm-LLMExt) is an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
+AMD LLM Extension is an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
 
 ## Training
 
@@ -29,7 +29,7 @@ AMD ROCm™ LLMExt (ROCm-LLMExt) is an open-source software toolkit built on the
 
 ## Reference integrations and projects
 
-ROCm-LLMExt provides reference integrations, build instructions, patches when required, benchmarks, and examples for the following projects:
+AMD LLM Extension provides reference integrations, build instructions, patches when required, benchmarks, and examples for the following projects:
 
 - Verl: reinforcement learning and post-training workflows for LLMs
 - Ray: distributed execution framework for training, inference, and serving
@@ -42,11 +42,11 @@ ROCm-LLMExt provides reference integrations, build instructions, patches when re
 
 Refer to the individual component pages for documentation on system requirements, installation instructions and examples.
 
-- [verl](https://github.com/ROCm/verl)
-- [Stanford-Megatron-LM](https://github.com/ROCm/Stanford-Megatron-LM)
-- [Megablocks](https://github.com/ROCm/megablocks)
-- [Ray](https://github.com/ROCm/ray)
-- [llama.cpp](https://github.com/ROCm/llama.cpp)
-- [FlashInfer](https://github.com/ROCm/flashinfer)
+- [verl](https://github.com/AMD-Ecosystem/verl)
+- [Stanford-Megatron-LM](https://github.com/AMD-Ecosystem/Stanford-Megatron-LM)
+- [Megablocks](https://github.com/AMD-Ecosystem/megablocks)
+- [Ray](https://github.com/AMD-Ecosystem/ray)
+- [llama.cpp](https://github.com/AMD-Ecosystem/llama.cpp)
+- [FlashInfer](https://github.com/AMD-Ecosystem/flashinfer)
 
  

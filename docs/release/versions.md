@@ -1,10 +1,10 @@
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="ROCm-LLMExt release history">
+  <meta name="description" content="AMD LLM Extension release history">
   <meta name="keywords" content="documentation, release history, ROCm, AMD">
 </head>
 
-# ROCm-LLMExt release history
+# AMD LLM Extension release history
 
 | Version | Release date |
 | ------- | ------------ |
