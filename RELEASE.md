@@ -10,18 +10,18 @@
 <!-- markdownlint-disable reference-links-images            -->
 <!-- markdownlint-disable no-missing-space-atx              -->
 <!-- spellcheck-disable                                     -->
-# ROCm-LLMExt 26.03 release notes
+# AMD LLM Extension 26.03 release notes
 
-This is the fourth release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
+This is the fourth release of the AMD LLM Extension toolkit, an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
 
 - [Release highlights](#release-highlights)
 - [System requirements](#system-requirements)
-- [ROCm-LLMExt components](#rocm-llmext-components)
+- [AMD LLM Extension components](#amd-llm-extension-components)
 
 ## Release highlights
 
 ```{note}
-ROCm-LLMExt 26.03 introduces a new component (Triton Inference Server) and includes targeted updates to one component (FlashInfer); other components remain unchanged (verl, Ray, and llama.cpp).
+AMD LLM Extension 26.03 introduces a new component (Triton Inference Server) and includes targeted updates to one component (FlashInfer); other components remain unchanged (verl, Ray, and llama.cpp).
 ```
 
 This release introduces the following component with support for [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2.0/):
@@ -37,9 +37,9 @@ This release adds support for [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2
 
 For the 26.03 release, the ROCm‑LLMExt components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each individual component, where the exact ROCm dependency is listed, or refer to the [compatibility matrix](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-26.03/about/compatibility-matrix.html) to verify supported ROCm versions. 
 
-## ROCm-LLMExt components
+## AMD LLM Extension components
 
-The following table lists ROCm-LLMExt component versions for the 26.03 release. 
+The following table lists AMD LLM Extension component versions for the 26.03 release. 
 Click {fab}`github` to go to the component's source on GitHub.
 
 <div class="pst-scrollable-table-container">
@@ -69,7 +69,7 @@ Click {fab}`github` to go to the component's source on GitHub.
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/llama-cpp/en/docs-26.02/">llama.cpp</a></td>
                 <td>b6652</a></td>
-                <td><a href="https://github.com/ROCm/llama.cpp/tree/release/b6652"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/llama.cpp/tree/release/b6652"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.03/">FlashInfer</a></td>
@@ -94,4 +94,4 @@ This release adds support for ROCm 7.2.0 and ROCm 7.0.2 on AMD Instinct MI325X a
 ### Triton Inference Server 25.12
 
 
-Triton Inference Server is a newly supported component as part of the ROCm-LLMExt toolkit. Triton Inference Server is a high-performance serving system that lets you deploy and run trained AI models in production so applications can send requests and get predictions efficiently in real time. This release is supported on ROCm 7.2.0 on AMD Instinct MI355X and MI300X GPUs.
+Triton Inference Server is a newly supported component as part of the AMD LLM Extension toolkit. Triton Inference Server is a high-performance serving system that lets you deploy and run trained AI models in production so applications can send requests and get predictions efficiently in real time. This release is supported on ROCm 7.2.0 on AMD Instinct MI355X and MI300X GPUs.

@@ -1,27 +1,27 @@
 .. meta::
-    :description: ROCm-LLMExt installation
+    :description: AMD LLM Extension installation
     :keywords: ROCm, LLM, AMD, Instinct, GPU, computer, graphics, python, toolkit, accelerated, verl, Stanford Megatron-LM, Megablocks, llama.cpp, ray, FlashInfer
 
 .. _linux-install:
 
 **************************************************************************************
-Install ROCm-LLMExt
+Install AMD LLM Extension
 **************************************************************************************
 
 This topic provides brief guidance and recommendations on setting up your 
 environment for LLM workloads. This includes verifying prerequisites before
-installing ROCm-LLMExt frameworks and libraries.
+installing AMD LLM Extension frameworks and libraries.
 
 System requirements
 ======================================================================================
 
-The ROCm-LLMExt components are all supported on AMD Instinct MI300X GPUs.
+The AMD LLM Extension components are all supported on AMD Instinct MI300X GPUs.
 Individual components also support additional hardware configurations.
 
-Before installing any ROCm-LLMExt component, verify that your system meets the hardware
+Before installing any AMD LLM Extension component, verify that your system meets the hardware
 and software prerequisites for each component, as outlined in the :ref:`llmext-compat-matrix` page.
 
-Install ROCm-LLMExt components
+Install AMD LLM Extension components
 ======================================================================================
 
 Each component has distinct prerequisite and environment requirements. To avoid dependency
