@@ -10,18 +10,18 @@
 <!-- markdownlint-disable reference-links-images            -->
 <!-- markdownlint-disable no-missing-space-atx              -->
 <!-- spellcheck-disable                                     -->
-# ROCm-LLMExt 26.04 release notes
+# AMD LLM Extension 26.04 release notes
 
-This is the fifth release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
+This is the fifth release of the AMD LLM Extension toolkit, an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
 
 - [Release highlights](#release-highlights)
 - [System requirements](#system-requirements)
-- [ROCm-LLMExt components](#rocm-llmext-components)
+- [AMD LLM Extension components](#amd-llm-extension-components)
 
 ## Release highlights
 
 ```{note}
-ROCm-LLMExt 26.04 introduces two agentic libraries (ComfyUI and ROCm-RAG) as part of the toolkit; other components remain unchanged (FlashInfer, llama.cpp, Ray, Triton Inference Server, and verl).
+AMD LLM Extension 26.04 introduces two agentic libraries (ComfyUI and ROCm-RAG) as part of the toolkit; other components remain unchanged (FlashInfer, llama.cpp, Ray, Triton Inference Server, and verl).
 ```
 
 This release introduces the following component with support for [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2.0/):
@@ -37,9 +37,9 @@ This release introduces the following component with support for [ROCm 6.4.1](ht
 
 ROCm‑LLMExt components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each component, which list the exact ROCm dependencies, or refer to the [Compatibility matrix](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-26.04/about/compatibility-matrix.html) to verify the supported ROCm versions.  
 
-## ROCm-LLMExt components
+## AMD LLM Extension components
 
-The following table lists ROCm-LLMExt component versions for the 26.04 release. 
+The following table lists AMD LLM Extension component versions for the 26.04 release. 
 Click {fab}`github` to go to the component's source on GitHub.
 
 <div class="pst-scrollable-table-container">
@@ -69,7 +69,7 @@ Click {fab}`github` to go to the component's source on GitHub.
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/llama-cpp/en/docs-26.02/">llama.cpp</a></td>
                 <td>b6652</td>
-                <td><a href="https://github.com/ROCm/llama.cpp/tree/release/b6652"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/llama.cpp/tree/release/b6652"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.03/">FlashInfer</a></td>
@@ -84,12 +84,12 @@ Click {fab}`github` to go to the component's source on GitHub.
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/comfyui/en/docs-26.04/">ComfyUI</a></td>
                 <td><a href="#comfyui-0-18-2">0.18.2</a></td>
-                <td><a href="https://github.com/ROCm/ComfyUI/tree/release/0.18.2.amd0"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/ComfyUI/tree/release/0.18.2.amd0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/rocm-rag/en/docs-26.04/">ROCm-RAG</a></td>
                 <td><a href="#rocm-rag-1-0-0">1.0.0</a></td>
-                <td><a href="https://github.com/ROCm/rocm-rag/tree/release/1.0.0"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/rocm-rag/tree/release/1.0.0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
     </table>
@@ -99,8 +99,8 @@ Click {fab}`github` to go to the component's source on GitHub.
 
 ### ComfyUI 0.18.2
 
-ComfyUI is a newly-supported component as part of the ROCm-LLMExt toolkit. ComfyUI is a graphical node-based interface that lets you create images, videos, and audio with minimal coding. You can even create diffusion workflows by dragging and dropping nodes in a visual interface. This release is supported on ROCm 7.2.0 on AMD Instinct MI355X GPUs.
+ComfyUI is a newly-supported component as part of the AMD LLM Extension toolkit. ComfyUI is a graphical node-based interface that lets you create images, videos, and audio with minimal coding. You can even create diffusion workflows by dragging and dropping nodes in a visual interface. This release is supported on ROCm 7.2.0 on AMD Instinct MI355X GPUs.
 
 ### ROCm-RAG 1.0.0
 
-ROCm-RAG is a newly-supported component as part of the ROCm-LLMExt toolkit. Build and deploy end-to-end AI pipelines with ROCm Retrieval-Augmented Generation (RAG) on AMD Instinct MI300X GPUs with support on ROCm 6.4.1. RAG is a machine learning architecture that enhances Large Language Models by combining generation with information retrieval from external sources. 
+ROCm-RAG is a newly-supported component as part of the AMD LLM Extension toolkit. Build and deploy end-to-end AI pipelines with ROCm Retrieval-Augmented Generation (RAG) on AMD Instinct MI300X GPUs with support on ROCm 6.4.1. RAG is a machine learning architecture that enhances Large Language Models by combining generation with information retrieval from external sources. 

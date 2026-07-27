@@ -1,14 +1,14 @@
 .. meta::
-  :description: Learn about the features and capabilities of ROCm-LLMExt
+  :description: Learn about the features and capabilities of LLM Extension
   :keywords: ROCm, simulation, AMD, Instinct, GPU, physics, numerical, solvers, Taichi, GSplat, Gaussian, Splatting, PyTorch, HIP, multi, scaling, high, performance, computing, HPC, real-time, rendering, volumetric, fluid, dynamics, rigid, body, particle, sparse, voxel, grids, differentiable, 3D, vision, computer, graphics, robotics, scientific, toolkit, accelerated
 
 .. rocmds-index:
 
 ********************************************************************
-AMD ROCm LLMExt documentation
+AMD LLM Extension documentation
 ********************************************************************
 
-AMD ROCm LLMExt (ROCm-LLMExt) is an open-source software toolkit built
+AMD LLM Extension is an open-source software toolkit built
 on the ROCm platform for large language model (LLM) extensions,
 integrations, and performance enablement on AMD GPUs. The domain
 brings together training, post-training, inference, and orchestration
@@ -39,14 +39,14 @@ AMD hardware.
        - Cluster bring-up and scheduling
        - Batch and online inference pipelines
 
-The ROCm-LLMExt source code is hosted on GitHub at `https://github.com/ROCm/ROCm-LLMExt <https://github.com/ROCm/ROCm-LLMExt>`__.
+The AMD LLM Extension source code is hosted on GitHub at `https://github.com/AMD-Ecosystem/ROCm-LLMExt <https://github.com/AMD-Ecosystem/ROCm-LLMExt>`__.
 
 .. note::
 
-   ROCm-LLMExt 26.04 introduces two agentic libraries (ComfyUI and ROCm-RAG) as part of the toolkit;
+   AMD LLM Extension 26.04 introduces two agentic libraries (ComfyUI and ROCm-RAG) as part of the toolkit;
    other components remain unchanged (FlashInfer, llama.cpp, Ray, Triton Inference Server, and verl).
 
-ROCm-LLMExt documentation is organized into the following categories:
+AMD LLM Extension documentation is organized into the following categories:
 
 .. grid:: 2
   :gutter: 3
