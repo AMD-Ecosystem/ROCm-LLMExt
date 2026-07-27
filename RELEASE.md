@@ -10,18 +10,18 @@
 <!-- markdownlint-disable reference-links-images            -->
 <!-- markdownlint-disable no-missing-space-atx              -->
 <!-- spellcheck-disable                                     -->
-# ROCm-LLMExt 25.09 release notes
+# AMD LLM Extension 25.09 release notes
 
-This is the second release of the AMD ROCm LLMExt toolkit (ROCm-LLMExt), an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
+This is the second release of the AMD LLM Extension toolkit, an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
 
 - [Release highlights](#release-highlights)
 - [System requirements](#system-requirements)
-- [ROCm-LLMExt components](#rocm-llmext-components)
+- [AMD LLM Extension components](#amd-llm-extension-components)
 
 ## Release highlights
 
 ```{note}
-ROCm-LLMExt 25.09 includes targeted updates to one component (llama.cpp) and introduces another (FlashInfer); four components remain unchanged (verl, Stanford Megatron-LM, Megablocks, and Ray).
+AMD LLM Extension 25.09 includes targeted updates to one component (llama.cpp) and introduces another (FlashInfer); four components remain unchanged (verl, Stanford Megatron-LM, Megablocks, and Ray).
 ```
 
 This release introduces support for [ROCm 7.0.0](https://rocm.docs.amd.com/en/docs-7.0.0/), [ROCm 6.4.3](https://rocm.docs.amd.com/en/docs-6.4.3/), [ROCm 6.4.2](https://rocm.docs.amd.com/en/docs-6.4.2/) and [ROCm 6.4.1](https://rocm.docs.amd.com/en/docs-6.4.1/) for the following component:
@@ -36,9 +36,9 @@ This release introduces support for [ROCm 6.4.1](https://rocm.docs.amd.com/en/do
 
 For the 25.09 release, the ROCm‑LLMExt components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each individual component, where the exact ROCm dependency is listed, or refer to the [compatibility matrix](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-25.09/about/compatibility-matrix.html) to verify supported ROCm versions. 
 
-## ROCm-LLMExt components
+## AMD LLM Extension components
 
-The following table lists ROCm-LLMExt component versions for the 25.09 release. 
+The following table lists AMD LLM Extension component versions for the 25.09 release. 
 Click {fab}`github` to go to the component's source on GitHub.
 
 <div class="pst-scrollable-table-container">
@@ -73,12 +73,12 @@ Click {fab}`github` to go to the component's source on GitHub.
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/ray/en/docs-25.08/">Ray</a></td>
                 <td>2.48.0.post0</td>
-                <td><a href="https://github.com/ROCm/ray/tree/release/2.48.0.post0"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/ray/tree/release/2.48.0.post0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/llama-cpp/en/docs-25.09/">llama.cpp</a></td>
                 <td>b5997&nbsp;&Rightarrow;&nbsp;<a href="#llama-cpp-b6356">b6356</a></td>
-                <td><a href="https://github.com/ROCm/llama.cpp/tree/release/b6356"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/llama.cpp/tree/release/b6356"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/flashinfer/en/docs-25.09/">FlashInfer</a></td>
