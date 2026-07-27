@@ -1,6 +1,6 @@
-# AMD ROCm™ LLMExt
+# AMD LLM Extension
 
-AMD ROCm™ LLMExt (ROCm-LLMExt) is an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
+AMD LLM Extension is an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
 
 ## Training
 
@@ -29,7 +29,7 @@ AMD ROCm™ LLMExt (ROCm-LLMExt) is an open-source software toolkit built on the
 
 ## Reference integrations and projects
 
-ROCm-LLMExt provides reference integrations, build instructions, patches when required, benchmarks, and examples for the following projects:
+AMD LLM Extension provides reference integrations, build instructions, patches when required, benchmarks, and examples for the following projects:
 
 - ComfyUI: node-based interface for building and running image generation workflows with diffusion models
 - FlashInfer: optimized inference operators such as attention and decoding kernels
@@ -43,11 +43,11 @@ ROCm-LLMExt provides reference integrations, build instructions, patches when re
 
 Refer to the individual component pages for documentation on system requirements, installation instructions and examples.
 
-- [ComfyUI](https://github.com/ROCm/ComfyUI)
-- [FlashInfer](https://github.com/ROCm/flashinfer)
-- [llama.cpp](https://github.com/ROCm/llama.cpp)
-- [Ray](https://github.com/ROCm/ray)
-- [ROCm-RAG](https://github.com/ROCm/rocm-rag)
-- [Triton Inference Server](https://github.com/ROCm/triton-inference-server-server)
-- [verl](https://github.com/ROCm/verl)
+- [ComfyUI](https://github.com/AMD-Ecosystem/ComfyUI)
+- [FlashInfer](https://github.com/AMD-Ecosystem/flashinfer)
+- [llama.cpp](https://github.com/AMD-Ecosystem/llama.cpp)
+- [Ray](https://github.com/AMD-Ecosystem/ray)
+- [ROCm-RAG](https://github.com/AMD-Ecosystem/rocm-rag)
+- [Triton Inference Server](https://github.com/AMD-Ecosystem/triton-inference-server-server)
+- [verl](https://github.com/AMD-Ecosystem/verl)
  
