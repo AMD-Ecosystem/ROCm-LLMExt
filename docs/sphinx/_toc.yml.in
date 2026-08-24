@@ -21,13 +21,13 @@ subtrees:
     title: FlashInfer
   - url: https://rocm.docs.amd.com/projects/llama-cpp/en/docs-26.02/
     title: llama.cpp
-  - url: https://rocm.docs.amd.com/projects/ray/en/docs-26.02/
+  - url: https://rocm.docs.amd.com/projects/ray/en/docs-26.06/
     title: Ray
   - url: https://rocm.docs.amd.com/projects/rocm-rag/en/docs-26.04/
     title: ROCm-RAG
   - url: https://rocm.docs.amd.com/projects/triton-inference-server/en/docs-26.03/
     title: Triton Inference Server
-  - url: https://rocm.docs.amd.com/projects/verl/en/docs-26.02/
+  - url: https://rocm.docs.amd.com/projects/verl/en/docs-26.06/
     title: verl
 
 - caption: Resources
