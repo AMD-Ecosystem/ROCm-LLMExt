@@ -8,7 +8,7 @@
 
 | Version | Release date |
 | ------- | ------------ |
-| [26.06](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-26.06/) | July 10, 2026 |
+| [26.06](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-26.06/) | August 24, 2026 |
 | [26.04](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-26.04/) | May 7, 2026 |
 | [26.03](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-26.03/) | April 2, 2026 |
 | [26.02](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-26.02/) | March 27, 2026 |
