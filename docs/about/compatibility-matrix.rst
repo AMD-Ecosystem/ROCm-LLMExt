@@ -12,6 +12,10 @@ AMD LLM Extension compatibility matrix
 
    <i class="fab fa-docker"></i>
 
+.. |github-icon| raw:: html
+
+   <i class="fab fa-github"></i>
+
 Use the following matrix to view the AMD LLM Extension compatibility and system requirements across releases:
 
 .. role:: version-start
@@ -23,8 +27,18 @@ Use the following matrix to view the AMD LLM Extension compatibility and system 
    :class: compat-matrix format-big-table
 
    +------------------------------+----------------------------------------------------+------------------+--------------+--------+----------------------+----------------+--------------------------------------------+
-   |  AMD LLM Extension version   |                  Component                         | AMD Instinct GPU | ROCm version | Ubuntu |       PyTorch        |    Python      |             Docker Hub                     |
+   |  AMD LLM Extension version   |                  Component                         | AMD Instinct GPU | ROCm version | Ubuntu |       PyTorch        |    Python      |                 Docker                     |
    +==============================+====================================================+==================+==============+========+======================+================+============================================+
+   | :version-start:`26.09`       | `verl 0.9.0                                        | MI300X,          | 10.0.0       | 24.04  | 2.12.0               | 3.12           | |github-icon| `Dockerfile                  |
+   |                              | <https://rocm.docs.amd.com/projects/               | MI325X,          |              |        |                      |                | <https://github.com/AMD-Ecosystem/verl/    |
+   |                              | verl/en/docs-26.09/install/                        | MI350X,          |              |        |                      |                | tree/release/0.9.0.amd0/docker/rocm>`__    |
+   |                              | verl-install.html>`__                              | MI355X           |              |        |                      |                |                                            |
+   +                              +----------------------------------------------------+------------------+--------------+--------+----------------------+----------------+--------------------------------------------+
+   |                              | `Ray 2.58.0                                        | MI300X,          | 10.0.0       | 24.04  | 2.12.0               | 3.14           | |github-icon| `Dockerfile                  |
+   |                              | <https://rocm.docs.amd.com/projects/               | MI325X,          |              |        |                      |                | <https://github.com/AMD-Ecosystem/ray/     |
+   |                              | ray/en/docs-26.09/install/                         | MI355X           |              |        |                      |                | blob/release/2.58.0/docker>`__             |
+   |                              | ray-install.html>`__                               |                  |              |        |                      |                |                                            |
+   +------------------------------+----------------------------------------------------+------------------+--------------+--------+----------------------+----------------+--------------------------------------------+
    | :version-start:`26.06`       | `verl 0.7.1                                        | MI300X,          | 7.0.2        | 22.04  | 2.9.1                | 3.12           | |docker-icon| `rocm/verl                   |
    |                              | <https://rocm.docs.amd.com/projects/               | MI325X,          |              |        |                      |                | <https://hub.docker.com/r/rocm/            |
    |                              | verl/en/docs-26.06/install/                        | MI355X           |              |        |                      |                | verl/tags?name=                            |
