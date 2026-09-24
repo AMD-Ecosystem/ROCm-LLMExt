@@ -97,7 +97,7 @@ Click {fab}`github` to go to the component's source on GitHub.
 
 ### verl 0.9.0
 
-This release updates verl in AMD LLM Extension from 0.7.1 to 0.9.0, and adds support for ROCm 10.0.0 on AMD Instinct™ MI300X, MI325X, and MI355X GPUs with PyTorch 2.12.0 and Python 3.12 on Ubuntu 24.04. 
+This release updates verl in AMD LLM Extension from 0.7.1 to 0.9.0, and adds support for ROCm 10.0.0 on AMD Instinct™ MI300X, MI325X, MI350X, and MI355X GPUs with PyTorch 2.12.0 and Python 3.12 on Ubuntu 24.04. 
 
 ### Ray 2.58.0
 
