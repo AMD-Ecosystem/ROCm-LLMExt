@@ -43,7 +43,7 @@ The AMD LLM Extension source code is hosted on GitHub at `https://github.com/AMD
 
 .. note::
 
-   AMD LLM Extension 26.06 introduces updates to two components (verl and Ray) as part of the toolkit;
+   AMD LLM Extension 26.09 introduces updates to two components (verl and Ray) as part of the toolkit;
    other components remain unchanged (ComfyUI, FlashInfer, llama.cpp, ROCm-RAG, and Triton Inference Server).
 
 AMD LLM Extension documentation is organized into the following categories:
