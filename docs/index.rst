@@ -43,7 +43,7 @@ The AMD LLM Extension source code is hosted on GitHub at `https://github.com/AMD
 
 .. note::
 
-   AMD LLM Extension 26.06 introduces updates to two components (verl and Ray) as part of the toolkit;
+   AMD LLM Extension 26.09 introduces updates to two components (verl and Ray) as part of the toolkit;
    other components remain unchanged (ComfyUI, FlashInfer, llama.cpp, ROCm-RAG, and Triton Inference Server).
 
 AMD LLM Extension documentation is organized into the following categories:
@@ -60,10 +60,10 @@ AMD LLM Extension documentation is organized into the following categories:
     * `ComfyUI <https://rocm.docs.amd.com/projects/comfyui/en/docs-26.04/>`__
     * `FlashInfer <https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.03/>`__
     * `llama.cpp <https://rocm.docs.amd.com/projects/llama-cpp/en/docs-26.02/>`__
-    * `Ray <https://rocm.docs.amd.com/projects/ray/en/docs-26.06/>`__
+    * `Ray <https://rocm.docs.amd.com/projects/ray/en/docs-26.09/>`__
     * `ROCm-RAG <https://rocm.docs.amd.com/projects/rocm-rag/en/docs-26.04/>`__
     * `Triton Inference Server <https://rocm.docs.amd.com/projects/triton-inference-server/en/docs-26.03/>`__
-    * `verl <https://rocm.docs.amd.com/projects/verl/en/docs-26.06/>`__
+    * `verl <https://rocm.docs.amd.com/projects/verl/en/docs-26.09/>`__
 
   .. grid-item-card:: Resources
 
