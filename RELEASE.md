@@ -18,6 +18,7 @@ This is the sixth release of the AMD LLM Extension toolkit, an open-source softw
 - [Release highlights](#release-highlights)
 - [System requirements](#system-requirements)
 - [AMD LLM Extension components](#amd-llm-extension-components)
+- [Detailed component changelogs](#detailed-component-changelogs)
 
 ## Release highlights
 
@@ -100,4 +101,4 @@ This release updates verl in AMD LLM Extension from 0.7.1 to 0.9.0, and adds sup
 
 ### Ray 2.58.0
 
-This release updates Ray in AMD LLM Extension from 2.55.1 to 2.58.0, and adds support for ROCm 10.0.0 on AMD Instinct MI300X, MI325X, and MI355X GPUs with PyTorch 2.12.0 and Python 3.14 on Ubuntu 24.04.
+This release updates Ray in AMD LLM Extension from 2.55.1 to 2.58.0, and adds support for ROCm 10.0.0 on AMD Instinct™ MI300X, MI325X, and MI355X GPUs with PyTorch 2.12.0 and Python 3.14 on Ubuntu 24.04.
