@@ -29,11 +29,21 @@ all_article_info_author = ""
 html_theme = "rocm_docs_theme"
 html_theme_options = {
     "flavor": "rocm-llmext",
-    # Add any additional theme options here
+    "repository_url": "https://github.com/AMD-Ecosystem/ROCm-LLMExt",
+    "repository_branch": "docs/26.09",
+    "path_to_docs": "docs",
+    "use_repository_button": True,
+    "use_issues_button": True,
+    "use_source_button": True,
+    "use_download_button": True,
 }
-
 html_static_path = ["sphinx/static/css"]
 html_css_files = ["rocm_custom.css"]
+# Publish the llms.txt index at the docs site root and let
+# rocm-docs-core generate llms-full.txt after each build (the llms.txt standard,
+# https://llmstxt.org/). See the rocm-docs-core guide:
+# https://rocm.docs.amd.com/projects/rocm-docs-core/en/latest/user_guide/llms.html
+rocm_docs_generate_llms = True
 
 extensions = ["rocm_docs"]
 
