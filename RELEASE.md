@@ -99,6 +99,19 @@ Click {fab}`github` to go to the component's source on GitHub.
 
 This release updates verl in AMD LLM Extension from 0.7.1 to 0.9.0, and adds support for ROCm 10.0.0 on AMD Instinct™ MI300X, MI325X, MI350X, and MI355X GPUs with PyTorch 2.12.0 and Python 3.12 on Ubuntu 24.04. 
 
+#### Known issues
+
+- **Qwen2.5-Math-7B:** set `max_position_embeddings` to `32768` after download.
+- **`PYTORCH_ALLOC_CONF=expandable_segments:True`:** used to reduce OOM risk, and it can conflict with vLLM custom all-reduce. Default configs set `vllm.disable_custom_all_reduce=True` until that ROCm™ conflict is gone.
+- **SGLang:** `attention_backend` must be `triton`.
+- **vLLM / SGLang ROCm™ fixes:** some fixes are still applied in Dockerfiles rather than only in released wheels. The 10.0 recipe pins vLLM `v0.27.0` instead of `main` because newer trees require a `torch::stable::Tensor` API. SGLang is pinned to a commit validated on this Primus + vLLM ROCm™ stack (and patched in-tree for `fused_add_rms_norm` and idempotent Qwen3-ASR config registration). Re-validate `SGLANG_TAG` if you bump `PRIMUS_TAG` or `VLLM_TAG`.
+
+
 ### Ray 2.58.0
 
-This release updates Ray in AMD LLM Extension from 2.55.1 to 2.58.0, and adds support for ROCm 10.0.0 on AMD Instinct™ MI300X, MI325X, and MI355X GPUs with PyTorch 2.12.0 and Python 3.14 on Ubuntu 24.04.
+This release updates Ray in AMD LLM Extension from 2.55.1 to 2.58.0, and adds support for ROCm 10.0.0 on AMD Instinct™ MI300X, MI325X, MI350X, and MI355X GPUs with PyTorch 2.12.0 and Python 3.14 on Ubuntu 24.04.
+
+#### Known issues
+
+- **RayTrain**: it is recommended to use the legacy V1 API by explicitly setting `os.environ["RAY_TRAIN_V2_ENABLED"] = "0"`.
+
