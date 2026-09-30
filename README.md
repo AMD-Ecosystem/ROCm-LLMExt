@@ -45,7 +45,6 @@ Refer to the individual component pages for documentation on system requirements
 
 - [ComfyUI](https://github.com/AMD-Ecosystem/ComfyUI)
 - [FlashInfer](https://github.com/AMD-Ecosystem/flashinfer)
-- [llama.cpp](https://github.com/AMD-Ecosystem/llama.cpp)
 - [Ray](https://github.com/AMD-Ecosystem/ray)
 - [ROCm-RAG](https://github.com/AMD-Ecosystem/rocm-rag)
 - [Triton Inference Server](https://github.com/AMD-Ecosystem/triton-inference-server-server)

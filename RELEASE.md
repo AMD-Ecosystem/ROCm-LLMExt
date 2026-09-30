@@ -23,7 +23,7 @@ This is the seventh release of the AMD LLM Extension toolkit, an open-source sof
 ## Release highlights
 
 ```{note}
-AMD LLM Extension 26.09 introduces updates to two components (verl and Ray) as part of the toolkit; other components remain unchanged (ComfyUI, FlashInfer, llama.cpp, ROCm-RAG, and Triton Inference Server).
+AMD LLM Extension 26.09 introduces updates to two components (verl and Ray) as part of the toolkit; other components remain unchanged (ComfyUI, FlashInfer, ROCm-RAG, and Triton Inference Server).
 ```
 
 This release updates the following components with support for [ROCm 10.0.0](https://rocm.docs.amd.com/en/docs-10.0.0/):
@@ -63,11 +63,6 @@ Click {fab}`github` to go to the component's source on GitHub.
                 <td><a href="https://rocm.docs.amd.com/projects/ray/en/docs-26.09/">Ray</a></td>
                 <td><a href="#ray-2-58-0">2.58.0</a></td>
                 <td><a href="https://github.com/ray-project/ray/releases/tag/ray-2.58.0"><i class="fab fa-github fa-lg"></i></a></td>
-            </tr>
-            <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/llama-cpp/en/docs-26.02/">llama.cpp</a></td>
-                <td>b6652</td>
-                <td><a href="https://github.com/AMD-Ecosystem/llama.cpp/tree/release/b6652"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.03/">FlashInfer</a></td>

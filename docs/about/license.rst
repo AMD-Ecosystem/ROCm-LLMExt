@@ -26,8 +26,6 @@ the licenses in the individual repositories.
      - `Apache 2.0 <https://github.com/AMD-Ecosystem/ComfyUI/blob/amd-integration/LICENSE>`__
    * - `FlashInfer <https://github.com/AMD-Ecosystem/flashinfer>`__
      - `Apache 2.0 <https://github.com/AMD-Ecosystem/flashinfer/blob/amd-integration/LICENSE>`__
-   * - `llama.cpp <https://github.com/AMD-Ecosystem/llama.cpp>`__
-     - `MIT License <https://github.com/AMD-Ecosystem/llama.cpp/blob/master/LICENSE>`__
    * - `Ray <https://github.com/AMD-Ecosystem/ray>`__
      - `Apache 2.0 <https://github.com/AMD-Ecosystem/ray/blob/amd-integration/LICENSE>`__
    * - `ROCm-RAG <https://github.com/AMD-Ecosystem/rocm-rag>`__
