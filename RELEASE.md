@@ -11,35 +11,33 @@
 <!-- markdownlint-disable no-missing-space-atx              -->
 <!-- spellcheck-disable                                     -->
 
-# AMD LLM Extension 26.06 release notes
+# AMD LLM Extension 26.09 release notes
 
-This is the sixth release of the AMD LLM Extension toolkit, an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
+This is the seventh release of the AMD LLM Extension toolkit, an open-source software toolkit built on the ROCm platform for large language model (LLM) extensions, integrations, and performance enablement on AMD GPUs. The domain brings together training, post-training, inference, and orchestration components to make modern LLM stacks practical and reproducible on AMD hardware.
 
 - [Release highlights](#release-highlights)
 - [System requirements](#system-requirements)
 - [AMD LLM Extension components](#amd-llm-extension-components)
+- [Detailed component changelogs](#detailed-component-changelogs)
 
 ## Release highlights
 
 ```{note}
-AMD LLM Extension 26.06 introduces updates to two components (verl and Ray) as part of the toolkit; other components remain unchanged (ComfyUI, FlashInfer, llama.cpp, ROCm-RAG, and Triton Inference Server).
+AMD LLM Extension 26.09 introduces updates to two components (verl and Ray) as part of the toolkit; other components remain unchanged (FlashInfer, ROCm-RAG, and Triton Inference Server).
 ```
 
-This release updates the following component with support for [ROCm 7.0.2](https://rocm.docs.amd.com/en/docs-7.0.2/):
+This release updates the following components with support for [ROCm 10.0.0](https://rocm.docs.amd.com/en/docs-10.0.0/):
 
-* [verl (Volcano Engine Reinforcement Learning for LLMs)](https://rocm.docs.amd.com/projects/verl/en/docs-26.06/) is an open-source framework for reinforcement-learning post-training of large language models and is the reference implementation of HybridFlow.
-
-This release updates the following component with support for [ROCm 7.2.1](https://rocm.docs.amd.com/en/docs-7.2.1/):
-
-* [Ray](https://rocm.docs.amd.com/projects/ray/en/docs-26.06/) is an open-source framework for scaling Python and AI workloads, providing the distributed compute and orchestration layer used by verl for multi-GPU and multi-node training.
+* [verl (Volcano Engine Reinforcement Learning for LLMs)](https://rocm.docs.amd.com/projects/verl/en/docs-26.09/) is an open-source framework for reinforcement-learning post-training of large language models and is the reference implementation of HybridFlow.
+* [Ray](https://rocm.docs.amd.com/projects/ray/en/docs-26.09/) is an open-source framework for scaling Python and AI workloads, providing the distributed compute and orchestration layer used by verl for multi-GPU and multi-node training.
 
 ## System requirements
 
-ROCm‑LLMExt components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each component, which list the exact ROCm dependencies, or refer to the [Compatibility matrix](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-26.06/about/compatibility-matrix.html) to verify the supported ROCm versions.  
+AMD LLM Extension components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each component, which list the exact ROCm dependencies, or refer to the [Compatibility matrix](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-26.09/about/compatibility-matrix.html) to verify the supported ROCm versions.  
 
 ## AMD LLM Extension components
 
-The following table lists AMD LLM Extension component versions for the 26.06 release. 
+The following table lists AMD LLM Extension component versions for the 26.09 release. 
 Click {fab}`github` to go to the component's source on GitHub.
 
 <div class="pst-scrollable-table-container">
@@ -57,19 +55,14 @@ Click {fab}`github` to go to the component's source on GitHub.
         </colgroup>
         <tbody class="rocm-llmext-components">
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/verl/en/docs-26.06/">verl</a></td>
-                <td><a href="#verl-0-7-1">0.7.1</a></td>
-                <td><a href="https://github.com/verl-project/verl/releases/tag/v0.7.1"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/verl/en/docs-26.09/">verl</a></td>
+                <td><a href="#verl-0-9-0">0.9.0</a></td>
+                <td><a href="https://github.com/verl-project/verl/releases/tag/v0.9.0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/ray/en/docs-26.06/">Ray</a></td>
-                <td><a href="#ray-2-55-1">2.55.1</a></td>
-                <td><a href="https://github.com/ray-project/ray/releases/tag/ray-2.55.1"><i class="fab fa-github fa-lg"></i></a></td>
-            </tr>
-            <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/llama-cpp/en/docs-26.02/">llama.cpp</a></td>
-                <td>b6652</td>
-                <td><a href="https://github.com/AMD-Ecosystem/llama.cpp/tree/release/b6652"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/ray/en/docs-26.09/">Ray</a></td>
+                <td><a href="#ray-2-58-0">2.58.0</a></td>
+                <td><a href="https://github.com/ray-project/ray/releases/tag/ray-2.58.0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.03/">FlashInfer</a></td>
@@ -82,11 +75,6 @@ Click {fab}`github` to go to the component's source on GitHub.
                 <td><a href="https://github.com/triton-inference-server/server/tree/r25.12"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/comfyui/en/docs-26.04/">ComfyUI</a></td>
-                <td>0.18.2</td>
-                <td><a href="https://github.com/AMD-Ecosystem/ComfyUI/tree/release/0.18.2.amd0"><i class="fab fa-github fa-lg"></i></a></td>
-            </tr>
-            <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/rocm-rag/en/docs-26.04/">ROCm-RAG</a></td>
                 <td>1.0.0</td>
                 <td><a href="https://github.com/AMD-Ecosystem/rocm-rag/tree/release/1.0.0"><i class="fab fa-github fa-lg"></i></a></td>
@@ -97,10 +85,23 @@ Click {fab}`github` to go to the component's source on GitHub.
 
 ## Detailed component changelogs
 
-### verl 0.7.1
+### verl 0.9.0
 
-This release updates verl in AMD LLM Extension from 0.6.0 to 0.7.1, and adds support for ROCm 7.0.2 on AMD Instinct MI300X, MI325X, and MI355X GPUs with PyTorch 2.9.1 and Python 3.12 on Ubuntu 22.04. 
+This release updates verl in AMD LLM Extension from 0.7.1 to 0.9.0, and adds support for ROCm 10.0.0 on AMD Instinct™ MI300X, MI325X, MI350X, and MI355X GPUs with PyTorch 2.12.0 and Python 3.12 on Ubuntu 24.04. 
 
-### Ray 2.55.1
+#### Known issues
 
-This release updates Ray in AMD LLM Extension from 2.51.1 to 2.55.1, and adds support for ROCm 7.2.1 on AMD Instinct MI300X, MI325X, and MI355X GPUs with PyTorch 2.10.0 and Python 3.12 on Ubuntu 22.04.
+- **Qwen2.5-Math-7B:** set `max_position_embeddings` to `32768` after download.
+- **`PYTORCH_ALLOC_CONF=expandable_segments:True`:** used to reduce OOM risk, and it can conflict with vLLM custom all-reduce. Default configs set `vllm.disable_custom_all_reduce=True` until that ROCm™ conflict is gone.
+- **SGLang:** `attention_backend` must be `triton`.
+- **vLLM / SGLang ROCm™ fixes:** some fixes are still applied in Dockerfiles rather than only in released wheels. The 10.0 recipe pins vLLM `v0.27.0` instead of `main` because newer trees require a `torch::stable::Tensor` API. SGLang is pinned to a commit validated on this Primus + vLLM ROCm™ stack (and patched in-tree for `fused_add_rms_norm` and idempotent Qwen3-ASR config registration). Re-validate `SGLANG_TAG` if you bump `PRIMUS_TAG` or `VLLM_TAG`.
+
+
+### Ray 2.58.0
+
+This release updates Ray in AMD LLM Extension from 2.55.1 to 2.58.0, and adds support for ROCm 10.0.0 on AMD Instinct™ MI300X, MI325X, MI350X, and MI355X GPUs with PyTorch 2.12.0 and Python 3.14 on Ubuntu 24.04.
+
+#### Known issues
+
+- **RayTrain**: it is recommended to use the legacy V1 API by explicitly setting `os.environ["RAY_TRAIN_V2_ENABLED"] = "0"`.
+
