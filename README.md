@@ -32,7 +32,6 @@ AMD LLM Extension is an open-source software toolkit built on the ROCm platform 
 AMD LLM Extension provides reference integrations, build instructions, patches when required, benchmarks, and examples for the following projects:
 
 - FlashInfer: optimized inference operators such as attention and decoding kernels
-- Llama.cpp: lightweight and portable LLM inference for servers, desktops, edge devices and HPC environments
 - Ray: distributed execution framework for training, inference, and serving
 - ROCm-RAG: retrieval-augmented generation workflows for LLMs
 - Triton Inference Server: a high-performance model server for general machine learning inference

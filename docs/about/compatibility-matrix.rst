@@ -1,6 +1,6 @@
 .. meta::
     :description: AMD LLM Extension compatibility matrix
-    :keywords: ROCm, LLM, AMD, Instinct, GPU, computer, graphics, python, toolkit, accelerated, verl, Stanford Megatron-LM, Megablocks, llama.cpp, ray, FlashInfer
+    :keywords: ROCm, LLM, AMD, Instinct, GPU, computer, graphics, python, toolkit, accelerated, verl, ray, FlashInfer, Triton Inference Server, RAG
 
 .. _llmext-compat-matrix:
 
