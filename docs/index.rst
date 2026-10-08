@@ -44,7 +44,7 @@ The AMD LLM Extension source code is hosted on GitHub at `https://github.com/AMD
 .. note::
 
    AMD LLM Extension 26.09 introduces updates to two components (verl and Ray) as part of the toolkit;
-   other components remain unchanged (ComfyUI, FlashInfer, ROCm-RAG, and Triton Inference Server).
+   other components remain unchanged (FlashInfer, ROCm-RAG, and Triton Inference Server).
 
 AMD LLM Extension documentation is organized into the following categories:
 
@@ -57,7 +57,6 @@ AMD LLM Extension documentation is organized into the following categories:
 
   .. grid-item-card:: Components
 
-    * `ComfyUI <https://rocm.docs.amd.com/projects/comfyui/en/docs-26.04/>`__
     * `FlashInfer <https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.03/>`__
     * `Ray <https://rocm.docs.amd.com/projects/ray/en/docs-26.09/>`__
     * `ROCm-RAG <https://rocm.docs.amd.com/projects/rocm-rag/en/docs-26.04/>`__
@@ -66,7 +65,6 @@ AMD LLM Extension documentation is organized into the following categories:
 
   .. grid-item-card:: Resources
 
-    * `ComfyUI on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/comfyui/README.html>`__
     * `FlashInfer on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/flashinfer-release2/README.html>`__
     * `Ray on ROCm blog <https://rocm.blogs.amd.com/ecosystems-and-partners/ray-rocm7/README.html>`__
     * `ROCm-RAG blog <https://rocm.blogs.amd.com/artificial-intelligence/rag-pipeline-vllm/README.html>`__

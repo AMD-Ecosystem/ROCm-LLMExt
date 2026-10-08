@@ -23,7 +23,7 @@ This is the seventh release of the AMD LLM Extension toolkit, an open-source sof
 ## Release highlights
 
 ```{note}
-AMD LLM Extension 26.09 introduces updates to two components (verl and Ray) as part of the toolkit; other components remain unchanged (ComfyUI, FlashInfer, ROCm-RAG, and Triton Inference Server).
+AMD LLM Extension 26.09 introduces updates to two components (verl and Ray) as part of the toolkit; other components remain unchanged (FlashInfer, ROCm-RAG, and Triton Inference Server).
 ```
 
 This release updates the following components with support for [ROCm 10.0.0](https://rocm.docs.amd.com/en/docs-10.0.0/):
@@ -73,11 +73,6 @@ Click {fab}`github` to go to the component's source on GitHub.
                 <td><a href="https://rocm.docs.amd.com/projects/triton-inference-server/en/docs-26.03/">Triton Inference Server</a></td>
                 <td>25.12</td>
                 <td><a href="https://github.com/triton-inference-server/server/tree/r25.12"><i class="fab fa-github fa-lg"></i></a></td>
-            </tr>
-            <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/comfyui/en/docs-26.04/">ComfyUI</a></td>
-                <td>0.18.2</td>
-                <td><a href="https://github.com/AMD-Ecosystem/ComfyUI/tree/release/0.18.2.amd0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/rocm-rag/en/docs-26.04/">ROCm-RAG</a></td>
