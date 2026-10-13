@@ -39,7 +39,7 @@ AMD hardware.
        - Cluster bring-up and scheduling
        - Batch and online inference pipelines
 
-The AMD LLM Extension source code is hosted on GitHub at `https://github.com/AMD-Ecosystem/ROCm-LLMExt <https://github.com/AMD-Ecosystem/ROCm-LLMExt>`__.
+The AMD LLM Extension source code is hosted on GitHub at `https://github.com/AMD-Ecosystem/llmextension <https://github.com/AMD-Ecosystem/llmextension>`__.
 
 .. note::
 
