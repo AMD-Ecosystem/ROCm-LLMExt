@@ -29,7 +29,7 @@ all_article_info_author = ""
 html_theme = "rocm_docs_theme"
 html_theme_options = {
     "flavor": "rocm-llmext",
-    "repository_url": "https://github.com/AMD-Ecosystem/ROCm-LLMExt",
+    "repository_url": "https://github.com/AMD-Ecosystem/llmextension",
     "repository_branch": "docs/26.09",
     "path_to_docs": "docs",
     "use_repository_button": True,
