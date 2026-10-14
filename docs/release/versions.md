@@ -8,5 +8,5 @@
 
 | Version | Release date |
 | ------- | ------------ |
-| [25.09](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-25.09/) | October 2, 2025 |
-| [25.08](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-25.08/) | September 9, 2025 |
+| [25.09](https://rocm.docs.amd.com/projects/llmextension/en/docs-25.09/) | October 2, 2025 |
+| [25.08](https://rocm.docs.amd.com/projects/llmextension/en/docs-25.08/) | September 9, 2025 |
