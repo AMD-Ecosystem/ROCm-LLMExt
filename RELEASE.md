@@ -35,7 +35,7 @@ This release adds support for [ROCm 7.2.0](https://rocm.docs.amd.com/en/docs-7.2
 
 ## System requirements
 
-For the 26.03 release, the ROCm‑LLMExt components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each individual component, where the exact ROCm dependency is listed, or refer to the [compatibility matrix](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-26.03/about/compatibility-matrix.html) to verify supported ROCm versions. 
+For the 26.03 release, the ROCm‑LLMExt components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each individual component, where the exact ROCm dependency is listed, or refer to the [compatibility matrix](https://rocm.docs.amd.com/projects/llmextension/en/docs-26.03/about/compatibility-matrix.html) to verify supported ROCm versions. 
 
 ## AMD LLM Extension components
 
