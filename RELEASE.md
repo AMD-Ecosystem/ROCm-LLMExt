@@ -35,7 +35,7 @@ This release introduces the following component with support for [ROCm 6.4.1](ht
 
 ## System requirements
 
-ROCm‑LLMExt components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each component, which list the exact ROCm dependencies, or refer to the [Compatibility matrix](https://rocm.docs.amd.com/projects/rocm-llmext/en/docs-26.04/about/compatibility-matrix.html) to verify the supported ROCm versions.  
+ROCm‑LLMExt components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each component, which list the exact ROCm dependencies, or refer to the [Compatibility matrix](https://rocm.docs.amd.com/projects/llmextension/en/docs-26.04/about/compatibility-matrix.html) to verify the supported ROCm versions.  
 
 ## AMD LLM Extension components
 
