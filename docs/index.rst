@@ -43,8 +43,8 @@ The AMD LLM Extension source code is hosted on GitHub at `https://github.com/AMD
 
 .. note::
 
-   AMD LLM Extension 26.09 introduces updates to two components (verl and Ray) as part of the toolkit;
-   other components remain unchanged (FlashInfer, ROCm-RAG, and Triton Inference Server).
+   AMD LLM Extension 26.10 introduces updates to two components (FlashInfer and Ray) as part of the toolkit;
+   other components remain unchanged (verl, ROCm-RAG, and Triton Inference Server).
 
 AMD LLM Extension documentation is organized into the following categories:
 
@@ -57,8 +57,8 @@ AMD LLM Extension documentation is organized into the following categories:
 
   .. grid-item-card:: Components
 
-    * `FlashInfer <https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.03/>`__
-    * `Ray <https://rocm.docs.amd.com/projects/ray/en/docs-26.09/>`__
+    * `FlashInfer <https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.10/>`__
+    * `Ray <https://rocm.docs.amd.com/projects/ray/en/docs-26.10/>`__
     * `ROCm-RAG <https://rocm.docs.amd.com/projects/rocm-rag/en/docs-26.04/>`__
     * `Triton Inference Server <https://rocm.docs.amd.com/projects/triton-inference-server/en/docs-26.03/>`__
     * `verl <https://rocm.docs.amd.com/projects/verl/en/docs-26.09/>`__

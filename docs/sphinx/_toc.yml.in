@@ -15,9 +15,9 @@ subtrees:
 
 - caption: Components
   entries:
-  - url: https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.03/
+  - url: https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.10/
     title: FlashInfer
-  - url: https://rocm.docs.amd.com/projects/ray/en/docs-26.09/
+  - url: https://rocm.docs.amd.com/projects/ray/en/docs-26.10/
     title: Ray
   - url: https://rocm.docs.amd.com/projects/rocm-rag/en/docs-26.04/
     title: ROCm-RAG
