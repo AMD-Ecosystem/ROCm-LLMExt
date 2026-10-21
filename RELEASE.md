@@ -87,7 +87,7 @@ Click {fab}`github` to go to the component's source on GitHub.
 
 ### FlashInfer 0.6.18
 
-This release updates FlashInfer in AMD LLM Extension from 0.5.3 to 0.6.18, and adds support for ROCm 10.1.0 on AMD Instinct™ MI300X, MI325X, and MI355X GPUs with PyTorch 2.12.0 and Python 3.12 on Ubuntu 24.04. FlashInfer 0.6.18 requires [AITER 0.1.21.post2](https://github.com/ROCm/aiter/releases/tag/v0.1.21.post2), built from source.
+This release updates FlashInfer in AMD LLM Extension from 0.5.3 to 0.6.18, and adds support for ROCm 10.1.0 on AMD Instinct™ MI300X, MI325X, MI350X, and MI355X GPUs with PyTorch 2.12.0 and Python 3.12 on Ubuntu 24.04. FlashInfer 0.6.18 requires [AITER 0.1.21.post2](https://github.com/ROCm/aiter/releases/tag/v0.1.21.post2), built from source.
 
 ### Ray 2.59.0
 
