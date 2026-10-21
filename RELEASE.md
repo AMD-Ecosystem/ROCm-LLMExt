@@ -57,22 +57,22 @@ Click {fab}`github` to go to the component's source on GitHub.
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.10/">FlashInfer</a></td>
                 <td><a href="#flashinfer-0-6-18">0.6.18</a></td>
-                <td><a href="https://github.com/flashinfer-ai/flashinfer/releases/tag/v0.6.18"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/flashinfer/releases/tag/v0.6.18%2Bamd.1"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/ray/en/docs-26.10/">Ray</a></td>
                 <td><a href="#ray-2-59-0">2.59.0</a></td>
-                <td><a href="https://github.com/ray-project/ray/releases/tag/ray-2.59.0"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/ray/tree/release/2.59.0.amd0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/verl/en/docs-26.09/">verl</a></td>
                 <td>0.9.0</td>
-                <td><a href="https://github.com/verl-project/verl/releases/tag/v0.9.0"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/verl/tree/release/0.9.0.amd0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/triton-inference-server/en/docs-26.03/">Triton Inference Server</a></td>
                 <td>25.12</td>
-                <td><a href="https://github.com/triton-inference-server/server/tree/r25.12"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/triton-inference-server-server/tree/release/r25.12%2Bamd.1"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/rocm-rag/en/docs-26.04/">ROCm-RAG</a></td>
