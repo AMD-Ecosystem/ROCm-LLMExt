@@ -1,21 +1,20 @@
 [submodule "verl"]
 	path = verl
-	url = https://github.com/rocm/verl
-[submodule "stanford-megatron-lm"]
-	path = stanford-megatron-lm
-	url = https://github.com/ROCm/Stanford-Megatron-LM
-[submodule "megablocks"]
-	path = megablocks
-	url = https://github.com/ROCm/megablocks
+	url = https://github.com/AMD-Ecosystem/verl
+	branch = main
 [submodule "ray"]
 	path = ray
-	url = https://github.com/ROCm/ray
-[submodule "llama.cpp"]
-	path = llama.cpp
-	url = https://github.com/ROCm/llama.cpp
+	url = https://github.com/AMD-Ecosystem/ray
+	branch = master
 [submodule "flashinfer"]
 	path = flashinfer
-	url = https://github.com/ROCm/flashinfer
+	url = https://github.com/AMD-Ecosystem/flashinfer
+	branch = amd-integration
 [submodule "triton"]
 	path = triton
-	url = https://github.com/ROCm/triton-inference-server-server.git
+	url = https://github.com/AMD-Ecosystem/triton-inference-server-server
+	branch = main
+[submodule "rocm-rag"]
+	path = rocm-rag
+	url = https://github.com/AMD-Ecosystem/rocm-rag
+	branch = main
