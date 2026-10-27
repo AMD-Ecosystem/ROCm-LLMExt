@@ -57,7 +57,7 @@ Click {fab}`github` to go to the component's source on GitHub.
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.10/">FlashInfer</a></td>
                 <td><a href="#flashinfer-0-6-18">0.6.18</a></td>
-                <td><a href="https://github.com/AMD-Ecosystem/flashinfer/releases/tag/v0.6.18%2Bamd.1"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/flashinfer/releases/tag/v0.6.18%2Bamd.2"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/ray/en/docs-26.10/">Ray</a></td>
