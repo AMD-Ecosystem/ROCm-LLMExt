@@ -87,13 +87,13 @@ Click {fab}`github` to go to the component's source on GitHub.
 
 ### FlashInfer 0.6.18
 
-This release updates FlashInfer in AMD LLM Extension from 0.5.3 to 0.6.18, and adds support for ROCm 10.1.0 on AMD Instinct™ MI300X, MI325X, MI350X, and MI355X GPUs with PyTorch 2.12.0 and Python 3.12 on Ubuntu 24.04. FlashInfer 0.6.18 requires [AITER 0.1.21.post2](https://github.com/ROCm/aiter/releases/tag/v0.1.21.post2), built from source.
+This release updates FlashInfer in AMD LLM Extension from 0.5.3 to 0.6.18, and adds support for ROCm 10.1.0 on AMD Instinct MI300X, MI325X, MI350X, and MI355X GPUs with PyTorch 2.12.0 and Python 3.12 on Ubuntu 24.04. FlashInfer 0.6.18 requires [AITER 0.1.21.post2](https://github.com/ROCm/aiter/releases/tag/v0.1.21.post2), built from source.
 
 ### Ray 2.59.0
 
-This release updates Ray in AMD LLM Extension from 2.58.0 to 2.59.0, and adds support for ROCm 10.1.0 on AMD Instinct™ MI300X, MI325X, MI350X, and MI355X GPUs with PyTorch 2.13.0 and Python 3.14 on Ubuntu 24.04. Ray 2.59.0 requires [vLLM 0.29.0](https://github.com/vllm-project/vllm/releases/tag/v0.29.0).
+This release updates Ray in AMD LLM Extension from 2.58.0 to 2.59.0, and adds support for ROCm 10.1.0 on AMD Instinct MI300X, MI325X, MI350X, and MI355X GPUs with PyTorch 2.13.0 and Python 3.14 on Ubuntu 24.04. Ray 2.59.0 requires [vLLM 0.29.0](https://github.com/vllm-project/vllm/releases/tag/v0.29.0).
 
 #### Known issues
 
-- **RayTrain**: it is recommended to use the legacy V1 API by explicitly setting `os.environ["RAY_TRAIN_V2_ENABLED"] = "0"`.
+- **RayTrain**: It is recommended to use the legacy V1 API by explicitly setting `os.environ["RAY_TRAIN_V2_ENABLED"] = "0"`.
 
