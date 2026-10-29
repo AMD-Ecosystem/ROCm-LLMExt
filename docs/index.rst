@@ -66,7 +66,7 @@ AMD LLM Extension documentation is organized into the following categories:
   .. grid-item-card:: Resources
 
     * `FlashInfer on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/flashinfer-release2/README.html>`__
-    * `Ray on ROCm blog <https://rocm.blogs.amd.com/ecosystems-and-partners/ray-rocm7/README.html>`__
+    * `Ray on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/rocm10-ray/README.html>`__
     * `ROCm-RAG blog <https://rocm.blogs.amd.com/artificial-intelligence/rag-pipeline-vllm/README.html>`__
     * `Triton Inference Server blog <https://rocm.blogs.amd.com/artificial-intelligence/triton-inference-server/README.html>`__
     * `verl on ROCm blog <https://rocm.blogs.amd.com/artificial-intelligence/verl/README.html>`__
