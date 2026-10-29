@@ -33,7 +33,7 @@ This release updates the following components with support for [ROCm 10.1.0](htt
 
 ## System requirements
 
-AMD LLM Extension components span a range of ROCm version requirements depending on the specific extension. Ensure you follow the installation instructions for each component, which list the exact ROCm dependencies, or refer to the [Compatibility matrix](https://rocm.docs.amd.com/projects/llmextension/en/docs-26.10/about/compatibility-matrix.html) to verify the supported ROCm versions.  
+AMD LLM Extension components span a range of ROCm version requirements depending on the specific component. Ensure you follow the installation instructions for each component, which list the exact ROCm dependencies, or refer to the [Compatibility matrix](https://rocm.docs.amd.com/projects/llmextension/en/docs-26.10/about/compatibility-matrix.html) to verify the supported ROCm versions.  
 
 ## AMD LLM Extension components
 
@@ -56,12 +56,12 @@ Click {fab}`github` to go to the component's source on GitHub.
         <tbody class="rocm-llmext-components">
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.10/">FlashInfer</a></td>
-                <td><a href="#flashinfer-0-6-18">0.6.18</a></td>
-                <td><a href="https://github.com/AMD-Ecosystem/flashinfer/releases/tag/v0.6.18%2Bamd.2"><i class="fab fa-github fa-lg"></i></a></td>
+                <td>0.5.3&nbsp;&Rightarrow;&nbsp;<a href="#flashinfer-0-6-18">0.6.18</a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/flashinfer/tree/release/0.6.18%2Bamd.2"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/ray/en/docs-26.10/">Ray</a></td>
-                <td><a href="#ray-2-59-0">2.59.0</a></td>
+                <td>2.58.0&nbsp;&Rightarrow;&nbsp;<a href="#ray-2-59-0">2.59.0</a></td>
                 <td><a href="https://github.com/AMD-Ecosystem/ray/tree/release/2.59.0.amd0"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
