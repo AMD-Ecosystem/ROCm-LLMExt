@@ -30,8 +30,8 @@ through a unified installation process.
 
 The installation instructions for each component on ROCm can be found as follows: 
 
-* `FlashInfer on ROCm <https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.03/install/flashinfer-install.html>`__
-* `Ray on ROCm <https://rocm.docs.amd.com/projects/ray/en/docs-26.09/install/ray-install.html>`__
+* `FlashInfer on ROCm <https://rocm.docs.amd.com/projects/flashinfer/en/docs-26.10/install/flashinfer-install.html>`__
+* `Ray on ROCm <https://rocm.docs.amd.com/projects/ray/en/docs-26.10/install/ray-install.html>`__
 * `ROCm-RAG <https://rocm.docs.amd.com/projects/rocm-rag/en/docs-26.04/install/configure-framework.html>`__
 * `Triton Inference Server on ROCm <https://rocm.docs.amd.com/projects/triton-inference-server/en/docs-26.03/install/triton-inference-server-install.html>`__
 * `verl on ROCm <https://rocm.docs.amd.com/projects/verl/en/docs-26.09/install/verl-install.html>`__

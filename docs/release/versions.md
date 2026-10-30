@@ -8,6 +8,7 @@
 
 | Version | Release date |
 | ------- | ------------ |
+| [26.10](https://rocm.docs.amd.com/projects/llmextension/en/docs-26.10/) | October 20, 2026 |
 | [26.09](https://rocm.docs.amd.com/projects/llmextension/en/docs-26.09/) | October 9, 2026 |
 | [26.06](https://rocm.docs.amd.com/projects/llmextension/en/docs-26.06/) | August 24, 2026 |
 | [26.04](https://rocm.docs.amd.com/projects/llmextension/en/docs-26.04/) | May 7, 2026 |

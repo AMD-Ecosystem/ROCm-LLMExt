@@ -2,6 +2,13 @@
 .vscode
 build
 
+# submodules
+flashinfer/
+ray/
+rocm-rag/
+triton/
+verl/
+
 # documentation artifacts
 _build/
 _images/
